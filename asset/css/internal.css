@@ -1,4 +1,5 @@
 @import url('reset.css');
+@import url('global.css');
 
 .s-wrapper {
   display: flex;
@@ -10,17 +11,21 @@
 .s-wrapper .s-left-column {
   width: 100px;
   height: 100%;
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  padding-right: 50px;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .s-wrapper .s-main-content {
   width: 100%;
   height: 100%;
   background-color: gray;
-  padding-left: 30px;
+  padding-left: 130px;
 }
 
 .navigator {
@@ -30,7 +35,7 @@
   align-items: center;
   width: 100%;
   position: relative;
-  background-color: #080808;
+
 }
 
 .navigator ul li {
@@ -55,4 +60,159 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.navigator::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  z-index: 0;
+}
+
+.navigator ul {
+  z-index: 1;
+}
+
+.navigator ul li a:hover,
+.navigator ul li a:after {
+  color: var(--primary-color);
+  background-color: white;
+}
+
+.navigator .navigator__icon {
+  position: absolute;
+  top: -20px;
+}
+
+
+
+.s-wrapper .s-main-content__top {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.s-wrapper .s-main-content__buttom {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.s-wrapper .s-main-content .s-logo img {
+  margin-top: 50px;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.pills ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.pills ul li {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px 15px;
+  margin: 0 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.pills ul li:first-child {
+  margin-left: 0;
+}
+
+.s-wrapper .s-main-content__top .s-description {
+  background-color: rgba(0, 0, 0, .7);
+  max-width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.s-wrapper .s-main-content__top .s-description .s-description__text p {
+  color: white;
+  line-height: 170%;
+}
+
+.s-wrapper .s-main-content__top .s-description .s-description__text a {
+  color: #09b141;
+}
+
+.s-wrapper .s-main-content__top .s-description .pills {
+  margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-link {
+  padding: 20px;
+  padding-left: 0;
+
+}
+
+a.link-buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+a.link-buttom .icon {
+  width: 32px;
+  height: 32px;
+  padding: 3px;
+  background-color: var(--primary-color);
+  border: solid 1px white;
+  background-clip: content-box;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.link-buttom .icon .play-icon {
+  border: solid 7px white;
+  width: 0;
+  height: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  margin-right: -7px;
+}
+
+a.link-button .label {
+  margin-left: 10px;
+}
+
+.s-wrapper .s-main-content .s-link ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.gallery {
+  padding: 20px;
+  padding-left: 0;
+}
+
+.gallery ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery ul li {
+  margin-left: 25px;
+}
+
+.gallery ul li:first-child {
+  margin-left: 0px;
+}
+
+.gallery ul li a img {
+  border: solid 6px white;
+  border-radius: 15px;
 }
