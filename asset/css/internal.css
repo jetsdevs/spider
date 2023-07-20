@@ -27,7 +27,7 @@
   padding-left: 130px;
   position: relative;
 }
-
+/* Estilizando navegação*/
 .navigator {
   height: 80vh;
   display: flex;
@@ -87,6 +87,7 @@
   top: -20px;
 }
 
+/* Fim navegação */
 
 
 .s-wrapper .s-main-content__top {
@@ -96,7 +97,7 @@
   justify-content: flex-start;
 }
 
-.s-wrapper .s-main-content__bottom{
+.s-wrapper .s-main-content__bottom {
   height: 20vh;
   display: flex;
   flex-direction: column;
@@ -109,6 +110,7 @@
   margin-bottom: 30px;
 }
 
+/* Bordas formato pilulas*/
 .pills ul {
   display: flex;
   flex-direction: row;
@@ -153,6 +155,7 @@
 
 }
 
+/* Criando icone trailler*/
 a.link-buttom {
   display: flex;
   align-items: center;
@@ -184,7 +187,7 @@ a.link-buttom .icon .play-icon {
   margin-right: -7px;
 }
 
-a.link-button .label {
+a.link-buttom .label {
   margin-left: 10px;
 }
 
@@ -193,7 +196,7 @@ a.link-button .label {
   flex-direction: row;
 }
 
-
+/* Gallery */
 .gallery {
   padding: 20px;
   padding-left: 0;
@@ -217,11 +220,23 @@ a.link-button .label {
   border-radius: 15px;
 }
 
+/* Background Spiderman Tobei*/
 .spiderman01 {
   background-image: url(/asset/images/spiderman-tobey/movie-01/background.png);
   background-size: cover;
 }
 
+.spiderman01-2 {
+  background-image: url(/asset/images/spiderman-tobey/movie-02/background.png);
+  background-size: cover;
+}
+
+.spiderman01-3 {
+  background-image: url(/asset/images/spiderman-tobey/movie-03/homem-aranha-3-2007.jpg);
+  background-size: cover;
+}
+
+/* Background Spiderman Andrew*/
 .spiderman02 {
   background-image: url(/asset/images/spiderman-andrew/movie-01/background.png);
   background-size: cover;

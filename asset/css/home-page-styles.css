@@ -28,7 +28,7 @@ body::before {
 .s-menu__item {
     display: inline-block;
     text-transform: uppercase;
-    margin: 0 1, 25rem;
+    margin: 0 1.25rem;
 }
 
 .s-menu__icon {
