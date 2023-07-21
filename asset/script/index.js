@@ -1,3 +1,4 @@
+/*prejeção cards*/
 function handleMouseEnter() {
     this.classList.add('s-card--hovered');
     document.body.id = `${this.id}-hovered`;
@@ -20,6 +21,8 @@ function addEventListernersToCards() {
 
 document.addEventListener("DOMContentLoaded", addEventListernersToCards, false);
 
+
+/*Controlador carousel*/
 function selectCarouselItem(selectedButtonElement) {
     const selectedItem = selectedButtonElement.id;
     const carousel = document.querySelector('.s-cards-carousel');

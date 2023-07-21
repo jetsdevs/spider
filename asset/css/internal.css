@@ -27,6 +27,7 @@
   padding-left: 130px;
   position: relative;
 }
+
 /* Estilizando navegação*/
 .navigator {
   height: 80vh;
@@ -68,7 +69,7 @@
   top: 0;
   width: 2px;
   height: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   z-index: 0;
 }
 
@@ -232,12 +233,34 @@ a.link-buttom .label {
 }
 
 .spiderman01-3 {
-  background-image: url(/asset/images/spiderman-tobey/movie-03/homem-aranha-3-2007.jpg);
+  background-image: url(/asset/images/spiderman-tobey/movie-03/1301436.jpg);
   background-size: cover;
 }
 
 /* Background Spiderman Andrew*/
 .spiderman02 {
   background-image: url(/asset/images/spiderman-andrew/movie-01/background.png);
+  background-size: cover;
+}
+
+.spiderman02-2 {
+  background-image: url(/asset/images/spiderman-andrew/movie-02/background.png);
+  background-size: cover;
+}
+
+/* Background Spiderman Tom*/
+
+.spiderman03 {
+  background-image: url(/asset/images/spiderman-tom/movie-01/background.png);
+  background-size: cover;
+}
+
+.spiderman03-2 {
+  background-image: url(/asset/images/spiderman-tom/movie-02/background.png);
+  background-size: cover;
+}
+
+.spiderman03-3 {
+  background-image: url(/asset/images/spiderman-tom/movie-03/background.png);
   background-size: cover;
 }

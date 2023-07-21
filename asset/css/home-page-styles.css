@@ -65,6 +65,10 @@ body::before {
     transform: rotateY(240deg) translateZ(50vw);
 }
 
+.s-card:nth-child(4) {
+    transform: rotateY(360deg) translateZ(50vw);
+}
+
 
 
 
