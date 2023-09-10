@@ -1,5 +1,5 @@
-@import url('reset.css');
-@import url('global.css');
+@import url('../../reset.css');
+@import url('../../global.css');
 
 .s-wrapper {
   display: flex;
@@ -223,17 +223,17 @@ a.link-buttom .label {
 
 /* Background Spiderman Tobei*/
 .spiderman01 {
-  background-image: url(/asset/images/spiderman-tobey/movie-01/background.png);
+  background-image: url(../../asset/images/spiderman-tobey/movie-01/background.png);
   background-size: cover;
 }
 
 .spiderman01-2 {
-  background-image: url(/asset/images/spiderman-tobey/movie-02/background.png);
+  background-image: url(../../asset/images/spiderman-tobey/movie-02/background.png);
   background-size: cover;
 }
 
 .spiderman01-3 {
-  background-image: url(/asset/images/spiderman-tobey/movie-03/1301436.jpg);
+  background-image: url(../../asset/images/spiderman-tobey/movie-03/1301436.jpg);
   background-size: cover;
 }
 
