@@ -1,5 +1,5 @@
-@import url('../../asset/css/reset.css');
-@import url('../../asset/css/global.css');
+@import url('/../asset/css/reset.css');
+@import url('/../asset/css/global.css');
 
 body {
     background-color: var(--primary-color);
@@ -7,7 +7,7 @@ body {
 
 body::before {
     content: "";
-    background-image: url('../../asset/images/spider-man-background.jpg');
+    background-image: url('/../asset/images/spider-man-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
