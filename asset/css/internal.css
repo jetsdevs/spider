@@ -1,5 +1,5 @@
-@import url('/reset.css');
-@import url('/global.css');
+@import url('../../reset.css');
+@import url('../../global.css');
 
 .s-wrapper {
   display: flex;
@@ -239,28 +239,28 @@ a.link-buttom .label {
 
 /* Background Spiderman Andrew*/
 .spiderman02 {
-  background-image: url(/asset/images/spiderman-andrew/movie-01/background.png);
+  background-image: url(../../asset/images/spiderman-andrew/movie-01/background.png);
   background-size: cover;
 }
 
 .spiderman02-2 {
-  background-image: url(/asset/images/spiderman-andrew/movie-02/background.png);
+  background-image: url(../../asset/images/spiderman-andrew/movie-02/background.png);
   background-size: cover;
 }
 
 /* Background Spiderman Tom*/
 
 .spiderman03 {
-  background-image: url(/asset/images/spiderman-tom/movie-01/background.png);
+  background-image: url(../../asset/images/spiderman-tom/movie-01/background.png);
   background-size: cover;
 }
 
 .spiderman03-2 {
-  background-image: url(/asset/images/spiderman-tom/movie-02/background.png);
+  background-image: url(../../asset/images/spiderman-tom/movie-02/background.png);
   background-size: cover;
 }
 
 .spiderman03-3 {
-  background-image: url(/asset/images/spiderman-tom/movie-03/background.png);
+  background-image: url(../../asset/images/spiderman-tom/movie-03/background.png);
   background-size: cover;
 }
